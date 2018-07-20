@@ -12,6 +12,7 @@ CREATE TABLE comment(
 -- inserts values into comment table
 INSERT INTO comment(commentId, commentDateTime, commentText) VALUES (UNHEX("a8d3473236d448c1ada912c40b441405"), TIMESTAMP ("2018-05-31","00:13:45"), "This is a comment");
 INSERT INTO comment(commentId, commentDateTime, commentText) VALUES (UNHEX("a9a1e9550f854476a1234f1ee600dfbd"), TIMESTAMP ("2018-06-01", "12:36:21"), "This is another comment!");
+INSERT INTO comment(commentId, commentDateTime, commentText) VALUES (UNHEX("cf97d6cea9c9488a875d60d8f4408ec6"), TIMESTAMP ("2018-06-02", "05:29:14"), "This is a third comment which isn't as popular as the other comments :(");
 -- selects entire comment table
 SELECT *
 FROM comment;
