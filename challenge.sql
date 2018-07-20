@@ -4,7 +4,7 @@ DROP TABLE IF EXISTS comment;
 -- creates new comment table
 CREATE TABLE comment(
 	commentId BINARY(16) NOT NULL,
-	commentDateTime TIMESTAMP,
+	commentDateTime TIMESTAMP(6),
 	commentText VARCHAR (128),
 -- primary key for comment table
 	PRIMARY KEY(commentId)
